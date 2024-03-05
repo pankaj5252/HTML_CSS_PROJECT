@@ -3,7 +3,7 @@
     padding: 10;
 }
 
-/* section 1 */
+/* section 1  Navbar*/
 h1 {
 
     font-family: 'Arial', sans-serif;
@@ -25,6 +25,19 @@ li {
     font-size: 22px;
     display: inline;
 }
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+}
+
+.active{
+    color: red;
+}
+
 
 /* section 2 */
 .slider-content {
@@ -68,9 +81,10 @@ p {
 
 /* tranding */
 .tranding-text {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
-    font-size: 30px
+    font-size: 30px;
 }
 
 .cart-box {
@@ -82,11 +96,13 @@ p {
     margin-left: 10px;
     float: left;
     border-radius: 10px;
-    overflow: hidden;
 }
 
 .cart img {
+    overflow: hidden;
     margin: 0;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
 }
 
 b {
@@ -99,4 +115,27 @@ b {
     border-radius: 20px;
     font-weight: bold;
     padding: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+}
+
+.cart img:hover {
+    transform: scale(1.2);
+}
+
+.cart-img {
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/* Footer */
+.footer {
+    margin-top: 10px;
+    text-align: center;
 }
