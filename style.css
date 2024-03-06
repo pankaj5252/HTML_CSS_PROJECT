@@ -154,8 +154,7 @@ button:hover {
 }
 
 
-@media (max-width:620px)  {
-    /* smartphones, iPhone, portrait 480x320 phones */ 
+@media (max-width:820px)  {
     .menu {
         text-align: center;
     }
